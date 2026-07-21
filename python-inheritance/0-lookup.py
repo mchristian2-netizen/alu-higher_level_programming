@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module for lookup function.
+Module for lookup function that returns attributes and methods.
 """
 
 
@@ -12,6 +12,6 @@ def lookup(obj):
         obj: The object to inspect.
 
     Returns:
-        list: List of attributes and methods.
+        list: A list of attribute and method names.
     """
     return dir(obj)

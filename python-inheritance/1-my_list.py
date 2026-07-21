@@ -5,7 +5,9 @@ Module for MyList class that inherits from list.
 
 
 class MyList(list):
-    """A custom list class with a method to print sorted list."""
+    """
+    A custom list class with a method to print the list sorted.
+    """
 
     def print_sorted(self):
         """
